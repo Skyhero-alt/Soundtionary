@@ -1,70 +1,15 @@
-# Getting Started with Create React App
+# Todo:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To create a multiplayer song guessing game, I will need to use a web development framework or language to build the front-end and back-end of the application. This will involve creating a user interface for players to interact with, as well as a server-side component to manage game state and communicate with the players' browsers.
 
-## Available Scripts
+- Here are the high-level steps I can follow to build this kind of game:
 
-In the project directory, you can run:
+- Determine the game mechanics and rules. For example, I could have players take turns guessing the name of a song based on a short audio clip, with points awarded for correct guesses and deducted for incorrect ones.
 
-### `npm start`
+- Design and implement the user interface for the game. This will likely include a way for players to enter their guesses, a display for the current game state (e.g. scores, current song, etc.), and possibly some additional features like chat or leaderboards.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Develop the server-side component of the game, using a web development framework or language of your choice. This will involve creating an API or set of endpoints that the client-side code can use to communicate with the server and update game state.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Implement the game logic on the server, including managing players, tracking scores, and determining when a round is over and a new one should begin. You will also need to integrate audio playback into the game, using a library or service that can stream or serve audio files to the players' browsers.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Test and debug the game, and make any necessary improvements or changes based on feedback from players. You may also want to consider adding additional features or polish to the game, such as support for multiple rooms or game modes.
